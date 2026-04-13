@@ -2,7 +2,6 @@
 
 **KSU C-Day Spring 2026 | PhD Research**
 
-Nzube Ohalete
 College of Computing and Software Engineering, Kennesaw State University
 
 ---
@@ -29,15 +28,14 @@ Financial-domain models detected the crisis **47 days** before closure, outperfo
 
 ```
 ├── phase1_data_collection.ipynb     # Oil price data + Guardian article collection
-├── phase2_sentiment_analysis.ipynb  # Five-model sentiment scoring + early warning
-├── phase3_forecasting_multiseed.ipynb  # LSTM (5-seed ensemble) + XGBoost forecasting
-├── phase4_poster_v2.ipynb           # Poster figures + key findings summary
+├── phase2_sentiment.ipynb  # Five-model sentiment scoring + early warning
+├── phase3_forecasting.ipynb  # LSTM (5-seed ensemble) + XGBoost forecasting
+├── phase4_poster.ipynb           # Poster figures + key findings summary
 ├── data/
 │   ├── oil_prices.csv               # Brent & WTI daily prices (Jan 2023 – Apr 2026)
 │   ├── daily_sentiment.csv          # Daily aggregated sentiment scores
 │   ├── article_sentiments.csv       # Per-article sentiment from all five models
 │   ├── model_predictions.csv        # LSTM + XGBoost predictions (67 days)
-│   ├── model_summary.json           # Summary metrics for all models
 │   └── country_exposure.csv         # Country oil dependency data
 ├── poster/                          # 300 DPI poster figures
 └── README.md
@@ -227,8 +225,3 @@ Hormuz Crisis Through Multi-Model NLP Consensus. KSU C-Day Spring 2026, College 
 Computing and Software Engineering, Kennesaw State University.
 ```
 
----
-
-## License
-
-This project is for academic research purposes. Data from The Guardian is subject to their Content API terms of service. Oil price data is sourced from Yahoo Finance via yfinance.
